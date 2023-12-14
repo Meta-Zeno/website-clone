@@ -28,16 +28,17 @@ nav {
     width: 129px;
 }
 
-
-
-/* generic link style added to all a tags in the nav bar */
-#navbarLinks a {
-    color: #1D1D1D;
+nav a {
     font-size: 15px;
     text-transform: uppercase;
     text-decoration: none;
     margin: 0 17px;
     letter-spacing: 2px;
+}
+
+/* generic link style added to all a tags in the nav bar */
+#navbarLinks > a, .navItem > a {
+    color: #1D1D1D;
 }
 
 /* Hamburger menu in the navbar is hidden until the screen is too small */
@@ -58,12 +59,10 @@ nav {
 .navItem {
     display: inline-block;
     position: relative;
-
 }
 
-
 .dropdownLinks {
-    background-color: rgb(180, 0, 0);
+    background-color: rgb(0, 0, 0);
     position: absolute;
     padding: 10px;
     opacity: 0;
@@ -189,10 +188,11 @@ footer {
 
 .box {
 
-    background-color: lightgray;
-    padding: 20px;
+    background-color: #e9e9ed;
+    padding: 15px;
     text-align: center;
-    border: 2px solid rgb(20, 151, 20);
-    color: green;
+    border: 2px solid #68b631;
+    color: #68b631;
+    
 }
 
