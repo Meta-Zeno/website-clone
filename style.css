@@ -114,11 +114,10 @@ p{
 
 footer .footer-items {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 15px;
 }
 
 .footer-items i {
-    color: black;
     font-size: 27px;
 }
 
@@ -127,6 +126,7 @@ footer .footer-items {
 }
 
 .footer-items a {
+    color: black;
     font-size: 14px;
     letter-spacing: 3px;
 }
@@ -135,30 +135,6 @@ footer .footer-items {
     letter-spacing: 2px;
 }
 
-
-
-
-
-
-
-
-
-
-/* #links{
-   display: flex;
-   justify-content: center;
-
-} 
-
-
-.blacklinks{
-    width: 100%;
-    
+footer {
+    padding-bottom: 20px;
 }
-    
-#links div{
-    width: 25%;
-    margin: 0;
-    box-sizing:border-box;
-    padding: 15px;
-} */
