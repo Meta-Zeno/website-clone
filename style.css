@@ -10,6 +10,8 @@
 body {
     background-color: rgb(255, 255, 255);
     margin: 0;
+    width: 100vw;
+    overflow-x:hidden;
 }
 
 /* NAVBAR CSS */
@@ -25,6 +27,8 @@ nav {
 #navbarLogo {
     width: 129px;
 }
+
+
 
 /* generic link style added to all a tags in the nav bar */
 #navbarLinks a {
@@ -47,6 +51,40 @@ nav {
     background-color: black;
     margin: 6px 0;
 }
+
+
+/* Dropdown section */
+
+.navItem {
+    display: inline-block;
+    position: relative;
+
+}
+
+
+.dropdownLinks {
+    background-color: rgb(180, 0, 0);
+    position: absolute;
+    padding: 10px;
+    opacity: 0;
+    top: 30px;
+    left: 2000px;
+    transition: top 0.3s, opacity 0.3s, left 0s;
+}
+
+.dropdownLinks a {
+    color: white;
+    display: block;
+    white-space: nowrap;
+    margin: 5px;
+}
+
+.navItem:hover .dropdownLinks {
+    opacity: 1;
+    top: 100%;
+    left: 0;
+}
+
 
 /* Media query to trigger the hamburger appearing and hiding the a tags */
 @media (max-width: 1230px) {
