@@ -193,6 +193,10 @@ footer {
     text-align: center;
     border: 2px solid #68b631;
     color: #68b631;
-    
+    transition: background-color 0.3s, color 0.3s;
 }
 
+.box:hover {
+    background-color:#68b631;
+    color: #e9e9ed;;
+}
