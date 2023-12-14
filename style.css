@@ -160,6 +160,7 @@ footer .footer-items {
 }
 
 .footer-items img {
+    padding-bottom: 40px;
     width: 24px;
 }
 
@@ -175,4 +176,25 @@ footer .footer-items {
 
 footer {
     padding-bottom: 20px;
+}
+
+
+.bottombox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+
+.box {
+
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid rgb(20, 151, 20);
+}
+
+p {
+    color: green;
 }
