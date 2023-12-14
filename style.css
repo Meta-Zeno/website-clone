@@ -109,6 +109,41 @@ p{
     padding-top: 10px;
 }
 
+
+/* FOOTER */
+
+footer .footer-items {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.footer-items i {
+    color: black;
+    font-size: 27px;
+}
+
+.footer-items img {
+    width: 24px;
+}
+
+.footer-items a {
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.footer-items h4 {
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
 /* #links{
    display: flex;
    justify-content: center;
